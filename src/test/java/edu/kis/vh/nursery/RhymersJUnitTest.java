@@ -2,7 +2,7 @@ package edu.kis.vh.nursery;
 
 import org.junit.Assert;
 import org.junit.Test;
-
+// Testy przeszly prawidlowo - 255671
 public class RhymersJUnitTest {
 
     @Test
