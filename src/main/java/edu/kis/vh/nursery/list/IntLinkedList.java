@@ -12,7 +12,7 @@ public class IntLinkedList {
     /**
      * OLD - TO DELETE
      */
-    private int i;
+    private int i; //TODO: DO USUNIECIA
 
     /**
      * Dodaje nowy Node do listy z wartością i

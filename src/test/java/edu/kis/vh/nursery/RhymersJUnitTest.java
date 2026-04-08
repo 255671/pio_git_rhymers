@@ -6,6 +6,7 @@ import org.junit.Test;
 // Testy przeszly prawidlowo - 255671
 public class RhymersJUnitTest {
 
+    //TODO: NAPISAĆ WIĘCEJ TESÓW :)
     @Test
     public void testLinkedListIsEmpty(){
         IntLinkedList ll = new IntLinkedList();
