@@ -1,10 +1,19 @@
 package edu.kis.vh.nursery;
 
+import edu.kis.vh.nursery.list.IntLinkedList;
 import org.junit.Assert;
 import org.junit.Test;
-
+// Testy przeszly prawidlowo - 255671
 public class RhymersJUnitTest {
 
+    //TODO: NAPISAĆ WIĘCEJ TESÓW :)
+    @Test
+    public void testLinkedListIsEmpty(){
+        IntLinkedList ll = new IntLinkedList();
+        boolean testValue = true;
+        boolean result = ll.isEmpty();
+        Assert.assertEquals(testValue,result);
+    }
     @Test
     public void testCountIn() {
         DefaultCountingOutRhymer rhymer = new DefaultCountingOutRhymer();
